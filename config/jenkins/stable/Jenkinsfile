@@ -3,6 +3,7 @@ pipeline {
 
     environment {
         HMCL_CI = '1'
+        MAVEN_CENTRAL_REPO = 'https://maven.aliyun.com/repository/public'
 
         VERSION_TYPE = 'stable'
         MICROSOFT_AUTH_ID = credentials('microsoft_auth_id')
